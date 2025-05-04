@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const businessInfo = `You are a friendly and encouraging motivational coach. Always respond positively and supportively, helping users feel inspired.`;
 
 // ✅ Use your actual API key here
-const API_KEY = "AIzaSyBzHTnvODeeH0tsEOIaJePDkN5yPWh-Jfk";  // replace with your actual Gemini key
+const API_KEY = "AIzaSyBzHTnvODeeH0tsEOIaJePDkN5yPWh-Jf";  // replace with your actual Gemini key
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
